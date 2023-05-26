@@ -297,7 +297,7 @@ class Bat extends Component
 
             <div className="text-gray-400 px-2 mt-5">PS: 由于浏览器限制存储，文本请不要超过10M (Edge/Chrome) 或者 5M( Safari )</div>
 
-            <div className="text-gray-400 px-2 mt-5">🎈 Made by <a href="https://github.com/easychen" rel="noreferrer" target="_blank">EasyChen</a></div>
+            <div className="text-gray-400 px-2 mt-5">🎈 Made by <a href="#" rel="noreferrer" target="_blank">EasyChen</a></div>
 
             </div>
             <div className="right w-1/2">
