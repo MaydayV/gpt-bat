@@ -119,7 +119,7 @@ class Bat extends Component
         
         if( this.props.store.openai_key.trim().length == 0 )
         {
-            toast("请先设置OpenAI/API2D Key");
+            toast("请先设置OpenAI Key");
             this.setState( {"open_dialog":true} );
             return;
         }
@@ -143,7 +143,7 @@ class Bat extends Component
             }
         } catch (error) {
             console.error(error);
-            toast("处理失败，请已处理内容已缓存，可稍后重新再试");
+            toast("处理失败，请检查内容分段及格式，可稍后重新再试");
             return; 
         }
         
