@@ -7,7 +7,7 @@ const APP_VAR_PREFIX = "GPTBAT_";
 
 class AppState
 {
-    @observable appname = "GPT::BAT";    
+    @observable appname = "GPT长文本处理";    
     @observable split_type = "newline";    
     @observable split_length = 1000;    
     @observable split_char = '\\n---\\n';  
