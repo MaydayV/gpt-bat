@@ -25,7 +25,7 @@ class AppState
 
     i18n = {
         "zh": {
-            "subtitle":"GPT长文本处理程序",
+            "subtitle":"可实现长文本通过GPT翻译、总结、改写",
             "split_type":"分隔方式",
             "split_by_line":"按换行分隔",
             "split_by_length":"按长度分隔",
