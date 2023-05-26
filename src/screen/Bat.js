@@ -282,7 +282,7 @@ class Bat extends Component
             <div className="mt-8 flex flex-row justify-between border-t pt-8">
 
 
-            <Button large={true} icon="key" className="" onClick={()=>this.setState({"open_dialog":!this.state.open_dialog})} text="OpenAI/API2D Key" />
+            <Button large={true} icon="key" className="" onClick={()=>this.setState({"open_dialog":!this.state.open_dialog})} text="OpenAI APIKey" />
 
             {this.props.store.count_token == "yes" ? <Button large={true} text="预估Token" onClick={()=>this.toggle_token()} active={true} /> :<Button large={true} text="预估Token" onClick={()=>this.toggle_token()} />}
 
@@ -297,7 +297,7 @@ class Bat extends Component
 
             <div className="text-gray-400 px-2 mt-5">PS: 由于浏览器限制存储，文本请不要超过10M (Edge/Chrome) 或者 5M( Safari )</div>
 
-            <div className="text-gray-400 px-2 mt-5">🎈 Made by <a href="https://github.com/easychen" rel="noreferrer" target="_blank">EasyChen</a> · <a href="https://a.ftqq.com/2023/04/19/gptbat/" target="_blank" rel="noreferrer">使用教程</a> · <a href="https://github.com/easychen/gpt-bat" target="_blank" rel="noreferrer">源代码</a></div>
+            <div className="text-gray-400 px-2 mt-5">🎈 Made by <a href="https://github.com/easychen" rel="noreferrer" target="_blank">EasyChen</a></div>
 
             </div>
             <div className="right w-1/2">
