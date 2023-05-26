@@ -226,7 +226,7 @@ class Bat extends Component
         const main = <div className="flex flex-row justify-between border rounded  p-10 mt-10 editor">
             <div className="left w-1/2">
 
-            <div className="text-xl text-blue-500">GPT::BAT</div>
+            <div className="text-xl text-blue-500">GPT长文本处理</div>
             <div className="text-lg mb-5 text-gray-400">{store.i18n[this.state.lang]?.subtitle}</div>
             
             <SingleSelectLine onChange={()=>this.spliting(this.content)} field="split_type" className="mt-2" label={store.i18n[this.state.lang]?.split_type} options={[
@@ -315,7 +315,7 @@ class Bat extends Component
                 <div className="p-5 mt-2">
                 <TextLine field="openai_key" placeholder={store.i18n[this.state.lang]?.key_settings_key} />
                 <TextLine field="openai_api_url" placeholder={store.i18n[this.state.lang]?.key_settings_url} />
-                <SubmitLine onSubmit={()=>this.save_key()} cancel={<AnchorButton large={true} icon="key" href="https://api2d.com/r/186008" target="_blank">{store.i18n[this.state.lang]?.key_settings_apply}</AnchorButton>} />
+                <SubmitLine onSubmit={()=>this.save_key()} cancel={<AnchorButton large={true} icon="key" href="#" target="_blank">{store.i18n[this.state.lang]?.key_settings_apply}</AnchorButton>} />
 
                 </div>
                 </Dialog>
